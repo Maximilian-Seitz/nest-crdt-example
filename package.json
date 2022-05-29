@@ -1,0 +1,25 @@
+{
+  "name": "nest-crdt-example",
+  "version": "1.0.0",
+  "description": "Example implementation of nested CRDTs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "CRDT"
+  ],
+  "author": "Maximilian Seitz <seitz.m95@gmail.com>",
+  "repository": "https://github.com/Maximilian-Seitz/nest-crdt-example.git",
+  "license": "MIT",
+  "dependencies": {
+    "nest-crdt": "1.0.0",
+    "nest-crdt-tools": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "4.7.2"
+  }
+}
